@@ -24,12 +24,7 @@ Você pode visualizar o portfólio hospedado no GitHub Pages pelo link abaixo:
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5**
-- **CSS3**
+- **HTML**
+- **CSS**
 - Organização de pastas para componentes
 - Princípios básicos de responsividade (se aplicável)
-
----
-
-## 📂 Estrutura do Projeto
-
