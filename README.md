@@ -1,11 +1,35 @@
-Meu Portfólio Pessoal — José Hadriel
-Sobre este projeto
-Este projeto foi desenvolvido para a disciplina Desenvolvimento Web I, lecionada pelo professor Thomaz, com o objetivo de criar um portfólio pessoal utilizando HTML e CSS.
+# 📁 Portfólio Pessoal — José Hadriel
 
-Acesse o Site
-Visualize o portfólio no GitHub Pages:
+Este repositório contém meu projeto de **Portfólio Pessoal**, desenvolvido como parte da disciplina **Desenvolvimento Web I**, ministrada pelo professor **Thomaz** no **IFCE – Campus Maranguape**.
 
-https://https://hadrielz10.github.io/Portfolio-Web1//
-Aluno:
-José Hadriel Miranda dos Santos - Turma S4 - 2025.2
-IFCE — Campus Maranguape
+O objetivo deste trabalho é apresentar minhas informações pessoais, habilidades e projetos utilizando apenas **HTML** e **CSS**.
+
+---
+
+## 🌐 Acesse o Site
+
+Você pode visualizar o portfólio hospedado no GitHub Pages pelo link abaixo:
+
+🔗 **https://hadrielz10.github.io/Portfolio-Web1/**
+
+---
+
+## 👨‍🎓 Aluno
+
+- **José Hadriel Miranda dos Santos**  
+- **Turma:** S4 — 2025.2  
+- **Instituição:** IFCE — Campus Maranguape
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5**
+- **CSS3**
+- Organização de pastas para componentes
+- Princípios básicos de responsividade (se aplicável)
+
+---
+
+## 📂 Estrutura do Projeto
+
