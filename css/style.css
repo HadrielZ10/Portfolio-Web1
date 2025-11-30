@@ -1,0 +1,184 @@
+.body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  background-color: #628b70;
+  line-height: 1.6;
+}
+
+#header{
+  display: flex;
+  text-align: center;
+  background-color: #8fb19a;
+  padding: 10px;
+  align-items: center;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+}
+
+header h1{
+  margin: 0;
+  color:#fcf9f3;
+}
+
+header nav a{
+  margin: 0 10px;
+  text-decoration: none;
+  color:#fcf9f3;
+}
+
+header nav a:hover{
+  color:#7e6965;
+}
+
+header nav li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.titulo{
+  color:#7e6965;
+  font-size: 35px;
+  text-align: center;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  margin-bottom: 60px;
+  padding: 20px;
+  background: #fdfbf6;
+  border-radius: 10px;
+  color:#53705b;
+}
+
+.imagem{
+  width: 40%;
+  height: auto;
+  border-radius: 40%;
+  display: block;     
+  margin: 0 auto; 
+}
+
+.texto{
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
+
+.section {
+  margin: 40px 0;
+  scroll-margin-top: 100px;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section li {
+  color:#ebe5c6;
+  background-color: #628b70;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+.section li a {
+  color: #ffffff;          
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.section li:hover {
+  background: #8f9c6e;  
+  transition: 0.3s;
+}
+
+.sectable{
+  scroll-margin-top: 100px;
+}
+
+.tabelas{
+  width: 100%;
+  margin-top: 20px;
+  background: lab(92.98% 1.06 16.67);
+  border-radius: 10px;
+}
+
+.tabelas thead{
+  background-color: #53705b;
+  color:#fdffec
+}
+
+.tabelas thead th{
+  padding: 10px;
+  font-weight: 600;
+  text-align: left;
+  letter-spacing: 0.5px;
+}
+
+.tabelas tbody tr {
+  border-bottom: 1px solid #e0d4ed;
+}
+
+.tabelas tbody td{
+  color:#615d58;
+  padding: 10px;
+}
+
+.tabelas tbody td:hover{
+  color:#ceaf49;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form label {
+  font-weight: 500;
+  color: #615d58 
+}
+
+.form textarea {
+  padding: 10px;
+  border: 1px solid #615d58;
+  font-size: 20px;
+}
+.form button{
+  width: 150px;
+  padding: 10px;
+  background-color: #d18765;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.form button:hover{
+  background-color:#676e63;
+  transition: 0.3s
+}
+
+.footer {
+  background-color: #8fb19a;
+  color: rgb(250, 240, 212);
+  text-align: center;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.icone {
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+
+}

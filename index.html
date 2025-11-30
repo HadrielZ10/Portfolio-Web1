@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html class="interface">
+<head>
+  <title>Portfólio Pessoal</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body">
+  
+  <header id="header">
+    <h1 class="nome">José Hadriel Miranda dos Santos</h1>
+      <nav>
+        <ul class="nav">
+          
+          <li><a href="#sobre">Sobre mim</a></li>
+          
+          <li><a href="#projetos">Projetos</a></li>
+          
+          <li><a href="#habilidades">Habilidades</a></li>
+          
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <main class="main" id="sobre">
+    <section>
+      <h2 class="titulo">Sobre mim</h2>
+      <figure>
+        <img class="imagem" src="img/Foto2.jpeg" alt="fotus" width="200">
+        <figcaption>Foto pessoal</figcaption>
+      </figure>
+      <p class="texto">Ola! Meu nome é Hadriel, eu tenho 17 anos e eu sou um estudante do curso integrado em informatica do Instituto Federal do Ceará Campus Maranguape. Atualmente eu estou no 2º ano do ensino médio e meu objetivo é expandir meus conhecimentos em tecnologias.</p>
+      <p class="texto">Desde pequeno sou apaixonado por obras de ficção cientifica. Gosto de ciencias, tecnologias e artes diversas. Gosto muito de desenhar como passa tempo e ler alguns livros de vez enquando. </p>
+    </section>
+
+    <section class="section" id="projetos">
+      <h2 class="titulo">Projetos</h2>
+      <ul>
+        <li><a href="https://hadrielz10.github.io/DevWeb-LandingPage-Projeto/" target="_blank">Landing Page -- </a>Portifólio pessoal da servidora Geni Estácio feito em HTML e CSS. Aplicamos principio de semântica, layout  e design.</li>
+        <li><a href="https://hadrielz10.github.io/HTML-Web1-Projects/" target="_blank">Projetos de HTML -- </a>Criação de projetos variados na disciplina Web, aplicando conteitos de estrutura semântica, formulários, tabelas, listas... </li>
+        <li><a href="https://hadrielz10.github.io/POO-2025.2-TIP4/" target="_blank">Projeto de programação Orientada à Objetos -- </a>Codigos variados em JAVA, desenvolvidos na disciplina POO, como classes, herança e encapsulamento.</li>
+        <li><a href="https://www.youtube.com/watch?v=H982OlmCwRk" target="_blank">Dublagem de video aula -- </a>Video aula desenvolvida na disciplina de ADMS, no qual mostramos diversos comandos do Linux Ubuntu, Shell Script. Fui responsavel por parte da dublagem do video.</li>
+      </ul>
+    </section>
+
+    <div >
+    <section class="sectable" id="habilidades">
+      <h2 class="titulo">Habilidades</h2>
+      <table class="tabelas">
+        <thead>
+          <tr>
+            <th>Tecnologia</th>
+            <th>Nível</th>
+            <th>Tempo de Experiência</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Básico</td>
+            <td>4 meses</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Básico</td>
+            <td>2 meses</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Básico</td>
+            <td>1 ano</td>
+          </tr>
+          <tr>
+            <td>JAVA</td>
+            <td>Básico</td>
+            <td>6 meses</td>
+          </tr>
+          <tr>
+            <td>MySQL</td>
+            <td>Básico</td>
+            <td>4 meses</td>
+          </tr>
+          <tr>
+            <td>Shell Script</td>
+            <td>Básico</td>
+            <td>6 meses</td>
+          </tr>
+
+          <tr>
+            <td>C++</td>
+            <td>Básico</td>
+            <td>4 meses</td>
+          </tr>
+        </tbody>
+        
+      </table>
+    </section>
+    </div>
+
+    <div id="contato">
+      <section>
+        <h2 class="titulo">Contato</h2>
+        
+        <p><img class="icone" src="img/Email.webp" alt="">E-mail: <a href="mailto:jose.hadriel10@aluno.ifce.edu.br"> jose.hadriel10@aluno.ifce.edu.br</a></p>
+        <p><img class="icone" src="img/Github.png" alt="">GitHub: <a href="https://github.com/HadrielZ10" target="_blank">github.com/HadrielZ10</a></p>
+
+        <form class="form">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="assunto">Assunto:</label>
+          <input type="text" id="assunto" name="assunto" required>
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form> 
+    </section>
+  </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Todos os direitos reservados — Projeto escolar desenvolvido por José Hadriel</p>
+  </footer>
+</body>
+</html>
